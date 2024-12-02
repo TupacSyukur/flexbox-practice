@@ -80,8 +80,8 @@ p {
     border-radius: 10px;
     font-weight: bold;
     margin-top: 5px;
+    border: 0;
 }
-
 
 .hero-image {
     display: flex;
@@ -94,4 +94,72 @@ p {
 
 .hero-image p {
     color: #eceef1;
+}
+
+
+
+.information {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.information h2 {
+    margin: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-items {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-items .item {
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.information-items .item .image {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+.quotes-section {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.quotes-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
 }
